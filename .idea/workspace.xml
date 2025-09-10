@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d508d94-df7b-4564-838a-6ef0392c53f9" name="Changes" comment="feat(init): init repo&#10;&#10;Repository init, cloned from sha3x base">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsystems/blockTemplateCache/blockTemplate.go" beforeDir="false" afterPath="$PROJECT_DIR$/subsystems/blockTemplateCache/blockTemplate.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsystems/blockTemplateCache/blockTemplate_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsystems/messages/minerStructs.go" beforeDir="false" afterPath="$PROJECT_DIR$/subsystems/messages/minerStructs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsystems/minerTracking/structs.go" beforeDir="false" afterPath="$PROJECT_DIR$/subsystems/minerTracking/structs.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsystems/poolStratum/miner.go" beforeDir="false" afterPath="$PROJECT_DIR$/subsystems/poolStratum/miner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsystems/poolStratum/server.go" beforeDir="false" afterPath="$PROJECT_DIR$/subsystems/poolStratum/server.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/subsystems/security/address.go" beforeDir="false" afterPath="$PROJECT_DIR$/subsystems/security/address.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" url="file://$USER_HOME$/sdk/go1.24.4" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2yq63CcY8WvZY4DKeo0ynzePON6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go File&quot;,
+    &quot;Go Build.go build github.com/snipa22/go-tari-p2pool-interface.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginOnboarding&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.GoLinterPluginStorageMigration&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/impala/GolandProjects/go-tari-c29-solo-stratum&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="go-tari-c29-solo-stratum" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build github.com/snipa22/go-tari-p2pool-interface" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go-tari-sha3x-solo-stratum" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="-node-grpc-address 100.120.203.58:18102 -pool-wallet-address 125zdeJKEv4PNmMotumY6K7p1yeJtgdoQ1FNZibWY5pc2NDxdwA5inPY11rBQhwco8s5vfFdgL37abkPk9gqbH2N7Ha" />
+      <kind value="PACKAGE" />
+      <package value="github.com/snipa22/go-tari-p2pool-interface" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="go-tari-c29-solo-stratum" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="DIRECTORY" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build github.com/snipa22/go-tari-p2pool-interface" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-gosdk-f466f9b0953e-3d2cccfc42a2-org.jetbrains.plugins.go.sharedIndexes.bundled-GO-252.25557.187" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-GO-252.25557.187" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d508d94-df7b-4564-838a-6ef0392c53f9" name="Changes" comment="" />
+      <created>1750549554511</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1750549554511</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat(init): initial commit&#10;&#10;Initial commit w/ code" />
+    <MESSAGE value="feat(tracking): add tracking back in&#10;&#10;Add in hashrate, share, and more obvious block tracking" />
+    <MESSAGE value="chore(main): upgrade grpc lib&#10;&#10;Upgrade to grpc 3.0.1 for better connection handling" />
+    <MESSAGE value="feat(server): convert defer to hard exit&#10;&#10;Add cleanup for the defer func into a hard exit function&#10;Add hard exit for the timers&#10;Add gitignore file" />
+    <MESSAGE value="feat(bt): convert to XN&#10;&#10;Require XN for all connections to the solo stratum." />
+    <MESSAGE value="chore(deps): upgrade to 5.0.1 tari protos&#10;&#10;Update the grpc libary for 5.0.1 compatability" />
+    <MESSAGE value="feat(init): init repo&#10;&#10;Repository init, cloned from sha3x base" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat(init): init repo&#10;&#10;Repository init, cloned from sha3x base" />
+  </component>
+  <component name="VgoProject">
+    <settings-migrated>true</settings-migrated>
+  </component>
+</project>
