@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"github.com/Snipa22/go-tari-grpc-lib/v3/tari_generated"
 	"reflect"
-	"sync"
 	"testing"
 )
 
@@ -13,7 +12,6 @@ func TestMinerJob_diffToTarget(t *testing.T) {
 		BlockResult *tari_generated.GetNewBlockResult
 		UsedNonces  []uint64
 		Target      uint64
-		NonceMutex  sync.RWMutex
 	}
 	tests := []struct {
 		name    string
@@ -38,7 +36,6 @@ func TestMinerJob_diffToTarget(t *testing.T) {
 				BlockResult: tt.fields.BlockResult,
 				UsedNonces:  tt.fields.UsedNonces,
 				Target:      tt.fields.Target,
-				NonceMutex:  tt.fields.NonceMutex,
 			}
 			got := job.diffToTarget()
 			fmt.Printf("%016x\n", got)
