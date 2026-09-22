@@ -2,6 +2,7 @@ package blockTemplateCache
 
 import (
 	"bytes"
+	"context"
 	"encoding/binary"
 	"errors"
 	"fmt"
@@ -57,7 +58,7 @@ func UpdateBlockTemplateCache(core *milieu.Milieu) {
 		poolID = &buf
 	}
 
-	blockTemplateResponse, err := nodeGRPC.GetBlockTemplate(&tari_generated.PowAlgo{PowAlgo: tari_generated.PowAlgo_POW_ALGOS_CUCKAROO})
+	blockTemplateResponse, err := nodeGRPC.GetBlockTemplate(context.Background(), &tari_generated.PowAlgo{PowAlgo: tari_generated.PowAlgo_POW_ALGOS_CUCKAROO})
 	if err != nil {
 		core.CaptureException(err)
 		return
@@ -120,7 +121,7 @@ func GetBlockSha3(minerID []byte) (*tari_generated.GetNewBlockResult, error) {
 	})
 
 	// Get the block data w/ the coinbases
-	return nodeGRPC.GetNewBlockTemplateWithCoinbases(&tari_generated.GetNewBlockTemplateWithCoinbasesRequest{
+	return nodeGRPC.GetNewBlockTemplateWithCoinbases(context.Background(), &tari_generated.GetNewBlockTemplateWithCoinbasesRequest{
 		Algo:      &tari_generated.PowAlgo{PowAlgo: tari_generated.PowAlgo_POW_ALGOS_CUCKAROO},
 		Coinbases: coinbaseData,
 	})

@@ -2,8 +2,8 @@ github.com/BurntSushi/toml v0.3.1/go.mod h1:xHWCNGjB5oqiDr8zfno3MHue2Ht5sIBksp03
 github.com/Masterminds/semver/v3 v3.1.1/go.mod h1:VPu/7SZ7ePZ3QOrcuXROw5FAcLl4a0cBrbBpGY/8hQs=
 github.com/Snipa22/core-go-lib v1.2.0 h1:EBhi/CXcartFxVrMzmbzC9wVGHPoa7lgHVY3BKOH6ZY=
 github.com/Snipa22/core-go-lib v1.2.0/go.mod h1:4NMLEWuo0bl180Lwfd4VbvVwUlhhRRUgkzl+mjRDDc8=
-github.com/Snipa22/go-tari-grpc-lib/v3 v3.2.0 h1:cuXLsW2tfvdMGDbu/mwjGvgcEAEO086908n05rW5RPE=
-github.com/Snipa22/go-tari-grpc-lib/v3 v3.2.0/go.mod h1:PhFhxISrJsqnix9QDy16YuxpbpPEcQzFkixNtJftSx8=
+github.com/Snipa22/go-tari-grpc-lib/v3 v3.4.0 h1:+F0xYMMRLCNwqC/jtR+bCRou5M32JVmQk6SCnZPUsBk=
+github.com/Snipa22/go-tari-grpc-lib/v3 v3.4.0/go.mod h1:PhFhxISrJsqnix9QDy16YuxpbpPEcQzFkixNtJftSx8=
 github.com/bsm/ginkgo/v2 v2.12.0 h1:Ny8MWAHyOepLGlLKYmXG4IEkioBysk6GpaRTLC8zwWs=
 github.com/bsm/ginkgo/v2 v2.12.0/go.mod h1:SwYbGRRDovPVboqFv0tPTcG1sN61LM1Z4ARdbAV9g4c=
 github.com/bsm/gomega v1.27.10 h1:yeMWxP2pV2fG3FgAODIY8EiRE3dy0aeFYt4l7wh6yKA=
