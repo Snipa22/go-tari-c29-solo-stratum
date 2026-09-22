@@ -50,7 +50,10 @@ func main() {
 	maxDiff := flag.Uint64("max-diff", 1000000000000, "Set the maximum difficulty for the port")
 	flag.Parse()
 
-	nodeGRPC.InitNodeGRPC(*nodeGRPCAddressPtr)
+	if err := nodeGRPC.InitNodeGRPC(*nodeGRPCAddressPtr); err != nil {
+		milieu.CaptureException(err)
+		milieu.Fatal(err.Error())
+	}
 
 	config.StartingDifficulty = *startingDiff
 	config.MinimumDifficulty = *minDiff
